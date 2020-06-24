@@ -1,0 +1,100 @@
+
+body{
+    background-color:#26408B;
+    margin:0 auto;
+    position:relative;
+}
+
+ #container{
+     width:320px;
+     height:520px;
+     background-color:white;
+     margin:0 auto;
+     position: relative;
+     box-shadow:0 4px 8px 0 rgba(0,0,0,0.2), 0 6px 20px 0 
+     rgba(0,0,0,0.19);
+     top:20px;
+     left:auto;
+     right:auto;
+ }
+
+ #result{
+     height:120px;
+    background-color:rgb(238, 237, 237);
+    text-align:right;
+    font-weight:500;
+    font-size: 30px;
+    font-family: 'Open Sans', sans-serif;
+    word-wrap: break-word;
+ }
+ #output{
+     font-size:30px;
+     padding:5px 5px 5px 5px;
+     
+ }
+ #previous{
+     text-align:right;
+     margin:0 20px;
+     padding-top:20px;
+     color:grey;
+     font-weight:300;
+     font-size:20px;
+     font-family: 'Open Sans', sans-serif;
+ }
+ #keyboard{
+     height:400px;
+     color:black;
+     position:absolute;
+     border-collapse: collapse;
+    border-spacing: 0;
+    
+ }
+ #acb, .lol{
+     width:160px !important;
+ }
+ #acb{
+     font-size:20px;
+ }
+ 
+ #dot{
+     background-color:white;
+ }
+
+ .btn, .ctrl, .l, #acb, .c{
+     width:80px;
+     height:80px;
+     margin:0px;
+     float:left;
+     border:none;
+     cursor: pointer;
+     font-size:20px;
+     font-weight: 300;
+     font-family: 'Roboto', sans-serif;
+ }
+ .btn:hover, #acb:hover,.c:hover{
+    background-color: rgb(247, 244, 244);
+ }
+ .ctrl:hover, .l:hover{
+    background-color: white;
+ }
+ .c{
+     background-color:white ;
+ }
+ .btn{
+     background-color:white;
+     border:none;
+ }
+ .ctrl{
+    background-color:rgb(238, 237, 237);
+ }
+ .btn:focus,.ctrl:focus,.l:focus, #acb:focus,.c:focus{
+     outline:0;
+ }
+ .btn:active, .ctrl:active,.l:active,#acb:active,.c:active{
+     font-size: 13px;
+ }
+ .l{
+    background-color:rgb(238, 237, 237);
+ }
+
+
